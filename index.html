@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <title>ehsj.dev | Pomodoro</title>
+</head>
+<body>
+    <!-- --------------------------------------------- -->
+    <!-- Image inspired by Tide, a pomodoro app. ----- -->
+    <!-- Check it out at: https://tide.moreless.io/en/ -->
+    <!-- --------------------------------------------- -->
+
+    <div id="pomodoro">
+        <div id="clock">
+            <div id="timer">
+                <div id="title">Pronto?</div>
+                <div id="countdown">
+                    <span id="minutes">25</span>
+                    <span id="seconds">00</span>
+                </div>
+                <div id="controls" class="reset">
+                    <div id="start"><i class="fas fa-play"></i> Começar</div>
+                    <div id="pause"><i class="fas fa-pause"></i> Pausa</div>
+                    <div id="reset"><i class="fas fa-sync-alt"></i> Recomeçar</div>
+                </div>
+            </div>
+        </div>
+        <div id="options">
+            <div id="session">
+                <i id="incrSession" class="fas fa-angle-double-up"></i>
+                <span class="option-title">Foco</span>
+                <input id="sessionInput" type="number" value="25" max="60" min="5" step="1">
+                <i id="decrSession" class="fas fa-angle-double-down"></i>
+            </div>
+            <div id="break">
+                <i id="incrBreak" class="fas fa-angle-double-up"></i>
+                <span class="option-title">Descanso</span>
+                <input id="breakInput" type="number" value="5" max="15" min="1">
+                <i id="decrBreak" class="fas fa-angle-double-down"></i>
+            </div>
+        </div>
+    </div>
+    <div id="audio-selector">
+        <div id="forest" class="theme">🌲 Floresta</div>
+        <div id="ocean" class="theme">🌊 Oceano</div>
+        <div id="rainy" class="selected theme">🌧 Chuva</div>
+        <div id="peace" class="theme">🧘 Paz</div>
+        <div id="cafe" class="theme">☕ Caf&eacute;</div>
+    </div>
+    <audio loop autoplay="true" src="https://joeweaver.me/codepenassets/freecodecamp/challenges/build-a-pomodoro-clock/rain.mp3">
+
+        <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
