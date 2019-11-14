@@ -115,7 +115,7 @@ body {
     top: -1px;
 }
 #pomodoro #clock #timer #controls #start:hover {
-    color: #0a6aff;
+    color: #32c3ff;
 }
 #pomodoro #clock #timer #controls #pause .fa-pause {
     font-size: 90%;
@@ -123,7 +123,7 @@ body {
     transform: scaleX(0.84);
 }
 #pomodoro #clock #timer #controls #pause:hover {
-    color: #0a6aff;
+    color: #32c3ff;
 }
 #pomodoro #clock #timer #controls #reset {
     position: absolute;
@@ -134,7 +134,7 @@ body {
     font-size: 84%;
 }
 #pomodoro #clock #timer #controls #reset:hover {
-    color: #0a6aff;
+    color: #32c3ff;
 }
 #pomodoro #clock #timer #controls.reset #pause {
     display: none;
